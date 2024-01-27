@@ -2,10 +2,7 @@ body{
     background-color: skyblue;
     text-align: center;
 }
-table
-{
-    ;
-}
+
 .mytable,.mytable td,.mytable th
 {
     border: 1px solid black;
