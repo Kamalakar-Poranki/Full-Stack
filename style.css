@@ -1,14 +1,14 @@
-*
-{
-    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e6eab654362267.5958694758bbb.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+body{
+    background-color: skyblue;
+    text-align: center;
 }
-.white
+table
 {
-    color: aliceblue;
+    ;
 }
-.red
+.mytable,.mytable td,.mytable th
 {
-    color: red;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
 }
