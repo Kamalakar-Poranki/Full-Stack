@@ -1,0 +1,93 @@
+* {
+  background-image: url(https://thissongissick.com/wp-content/uploads/2021/08/MF-DOOM-the-hero-in-disguise-This-Song-Is-SICK.jpg);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: orangered;
+  }
+  
+  .container {
+    background-color: #8ad1be;
+    min-height: 100vh;
+    border: 10px solid #5a38d3b6;
+  }
+  
+  .content {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .top_section {
+    margin-top: 100px;
+    display:grid;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .top_section h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #e64b25;
+    text-transform: uppercase;
+    text-align: center;
+  
+  }
+  .top_section h4 {
+    font-size: 30px;
+    color: #e3ac2d;
+    text-align: center;
+  }
+  
+  .image_container {
+    border-radius: 0;
+    overflow: visible;
+  }
+  
+  .image_container,
+  img {
+    width: 400px;
+    height: 224px;
+  }
+  .about_section {
+    margin-top: 50px;
+  }
+  .about_section h2 {
+    font-size: 60px;
+    font-weight: 4500;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    font-style: italic;
+  }
+  .about_section p {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .biography_section {
+    margin: 50px 0;
+  }
+  .biography_section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-decoration: underline;
+  }
+  .biography_section ol {
+    margin-left: 50px;
+  }
+  .biography_section li {
+    margin-bottom: 15px;
+  }
+  .biography_section dt {
+    text-decoration: underline;
+    margin-bottom: 10px;
+  }
+  footer {
+    margin: 50px 0;
+  }
+  footer p {
+    text-align: end;
+  }
