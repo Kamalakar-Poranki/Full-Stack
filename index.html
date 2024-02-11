@@ -1,56 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="https://i0.wp.com/www.printmag.com/wp-content/uploads/2023/08/cropped-print-favicon.png?fit=512%2C512&quality=80&ssl=1" type="image/x-icon">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    <h1>My Projects</h1>
-    <table class="mytable">
-        <thead>
-    <tr>
-    <th>S.No</th>
-    <th>Name</th>
-    <th>Link</th>
-    </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Tribute</td>
-                <td><a href="./Practice/Tribute/index.html" target="_blank">Click Here</a></td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Project2</td>
-                <td><a href="">Click here</a></td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Project3</td>
-                <td><a href="">click here</a></td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Project4</td>
-                <td><a href="">click here</a></td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Resume</td>
-                <td><a href="">click here</a></td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>Tribute</td>
-                <td><a href="">click here</a></td>
-            </tr>
-
-        </tbody>
-
-    </table>
+	<nav class="row  text-light ">
+		<h2 class="col-7 ms-5"><em>Portfolio</em></h2>	
+	<ul class=" col-3 d-flex g-3 justify-content-evenly list-unstyled mt-1">
+	<li><a href="#banner">Home</a></li>
+	<li><a href="#abt">About</a></li>
+	<li><a href="#prj">Projects</a></li>
+	<li><a href="#cnt">Contact</a></li>
+	</ul>
+	</nav>
+	<header id="banner" class="">
+		<main class="container-fluid">
+            <div class="row pt-5">
+                <div class="col p-5 ms-4">
+                    <h2>Hi,This is <em class="typed">Kamal</em></h2>
+                    <p>I am a Web Developer</p>
+                    <button type="button" class="btn btn-primary">Contact Me</button>
+                </div>
+                <div class="col-4">
+                        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+                        <dotlottie-player src="https://lottie.host/9b57e64c-fd92-486b-95c0-39a1a838ce56/jOAYWV0BYq.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+                </div>
+            </div>
+			<section id="abt" class="about">
+                <div class="mt-5 d-flex justify-content-center">
+                    <h2>About</h2>
+                </div>
+                <div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At sit neque totam, vitae cupiditate atque veniam excepturi suscipit est. Nostrum molestiae libero quia voluptate atque placeat cum nam. Eum provident ex minima dicta fugit ad exercitationem, libero vitae? Repellendus quo ipsa voluptate odit explicabo maxime! Ratione voluptatem harum facere atque quam vero suscipit debitis repellendus sed est omnis eum fugit, consequuntur autem aliquid totam ipsam explicabo iure? Nobis, natus deserunt alias impedit non dolorem. Corrupti atque, quasi at beatae quaerat perferendis? Eos sint dolores soluta quo adipisci accusamus mollitia architecto natus, tempore exercitationem quas sequi nihil at, consequuntur ratione dolore.</p>
+                </div>
+            </section>
+			<section id="prj" class="projects">
+                <div class="mt-5">
+                    <h2 class="d-flex justify-content-center">Projects</h2>
+                    <div class="row d-flex justify-content-evenly">
+                        <div class="card text-bg-warning mb-3" style="max-width: 18rem;">
+                            <img src="./Practice/Tribute/Images/images.jfif" class="card-img-top" alt="">
+                            <div class="card-header">Tribute</div>
+                            <div class="card-body">
+                              <h5 class="card-title">MF-DOOM</h5>
+                              <p class="card-text">This is a tribute to the GOAT of HIP-HOP.</p>
+                              <a href="./Practice/Tribute/index.html" target="_blank" class="btn btn-primary">Website</a>
+                              <a href="https://github.com/Kamalakar-Poranki/Full-stack/tree/master/Practice/Tribute" target="_blank" class="btn btn-link">Source code</a>
+                            </div>
+                          </div>
+                          <div class="card text-bg-warning mb-3" style="max-width: 18rem;">
+                            <div class="card-header">project-2</div>
+                            <div class="card-body">
+                              <h5 class="card-title">card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="" class="btn btn-primary">Website</a>
+                              <a href="" class="btn btn-link">Source code</a>
+                            </div>
+                          </div>
+                          <div class="card text-bg-warning mb-3" style="max-width: 18rem;">
+                            <div class="card-header">project-3</div>
+                            <div class="card-body">
+                              <h5 class="card-title">card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="" class="btn btn-primary">Website</a>
+                              <a href="" class="btn btn-link">Source code</a>
+                            </div>
+                          </div>
+                          <div class="card text-bg-warning mb-3" style="max-width: 18rem;">
+                            <div class="card-header">project-4</div>
+                            <div class="card-body">
+                              <h5 class="card-title">card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="" class="btn btn-primary">Website</a>
+                              <a href="" class="btn btn-link">Source code</a>
+                            </div>
+                          </div>
+                          <div class="card text-bg-warning mb-3" style="max-width: 18rem;">
+                            <div class="card-header">project-5</div>
+                            <div class="card-body">
+                              <h5 class="card-title">card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="" class="btn btn-primary">Website</a>
+                              <a href="" class="btn btn-link">Source code</a>
+                            </div>
+                          </div>
+                          <div class="card text-bg-warning mb-3" style="max-width: 18rem;">
+                            <div class="card-header">Project-6</div>
+                            <div class="card-body">
+                              <h5 class="card-title">card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="" class="btn btn-primary">Website</a>
+                              <a href="" class="btn btn-link">Source code</a>
+                            </div>
+                          </div>
+                          <div class="card text-bg-warning mb-3" style="max-width: 18rem;">
+                            <div class="card-header">project-7</div>
+                            <div class="card-body">
+                              <h5 class="card-title">card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="" class="btn btn-primary">Website</a>
+                              <a href="" class="btn btn-link">Source code</a>
+                            </div>
+                          </div>
+                          <div class="card text-bg-warning mb-3" style="max-width: 18rem;">
+                            <div class="card-header">project-8</div>
+                            <div class="card-body">
+                              <h5 class="card-title">card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="" class="btn btn-primary">Website</a>
+                              <a href="" class="btn btn-link">Source code</a>
+                            </div>
+                          </div>
+                    </div>  
+                </div>
+            </section>
+		    <section id="cnt" class="contact">
+                <div class=" row d-flex justify-content-center">
+                    <h2 class="d-flex justify-content-center mt-5">Contact</h2>
+                    <div class="d-flex justify-content-center">
+                        <form action="" id="form" class="ps-5 ms-5 mt-5 ">
+                            <div>
+                                <input type="text" name="name" id="name" placeholder="Enter the name">
+                            </div><br>
+                            <div>
+                                <input type="email" name="email" id="name" placeholder="Enter the email">
+                            </div><br>
+                            <div>
+                               <textarea name="textarea" id="ta" cols="30" rows="10" placeholder="enter the message"></textarea>
+                            </div><br>
+                              <button type="submit" class="btn btn-success">Submit</button>
+                           </form>
+                    </div>
+                </div>
+            </section>
+	</main>
+	</header>
+	<footer>
+    </footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
